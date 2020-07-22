@@ -245,6 +245,13 @@ background contrast. All other values default to \"medium\"."
 
 
    ;;;;;;;; Major mode faces ;;;;;;;;
+
+   ;; haskell-mode
+   (haskell-definition-face  :foreground green)
+   (haskell-type-face        :foreground yellow)
+   (haskell-constructor-face :foreground yellow)
+   (haskell-keyword-face     :foreground violet)
+
    ;; css-mode / scss-mode
    (css-proprietary-property :foreground keywords)
 
