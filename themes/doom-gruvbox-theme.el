@@ -105,7 +105,7 @@ background contrast. All other values default to \"medium\"."
   ;; --- extra faces ------------------------
   (
    ;;;;;;;; Editor ;;;;;;;;
-   (cursor :background "white")
+   (cursor :background fg-alt)
    (hl-line :background bg-alt)
    ((line-number &override) :foreground base5)
    ((line-number-current-line &override) :background bg-alt2 :foreground fg :bold t)
@@ -183,6 +183,10 @@ background contrast. All other values default to \"medium\"."
    (dired-marked :foreground yellow)
    (dired-symlink :foreground cyan)
    (dired-header :foreground cyan)
+
+   ;; lsp
+   (lsp-face-highlight-write :background nil :underline t)
+   (lsp-face-highlight-read :background nil :underline t)
 
    ;;;;;;;; Brackets ;;;;;;;;
    ;; Rainbow-delimiters
